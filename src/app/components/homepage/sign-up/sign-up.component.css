@@ -1,0 +1,78 @@
+.signUp-wrapper{
+    height: 45vw;
+    background-image: url(../../../../assets/childrenPlayingChess.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0% 30%;
+    vertical-align: middle;
+}
+
+.gradient{
+    height: 45vw;
+    width:100vw;
+    background: linear-gradient(90deg, rgba(225,108,0,0.49763655462184875) 0%, rgba(74,0,136,0.500437675070028) 100%);
+}
+
+.arrow{
+    height: 4.5vw;
+    width: 4.5vw;
+    background-image: url(../../../../assets/Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arrow:hover, .signUpBtn:hover{
+    cursor: pointer;
+}
+
+.Right{
+    transform: rotate(180deg);
+}
+
+.signUp{
+    color: white;
+    text-align: center;
+    height: 70%;
+    vertical-align: bottom;
+    padding: 10vw 3vw;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.signUpBtn{
+    color: black;
+    padding: 1vw 2vw;
+    background-color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.9vw;
+}
+
+.gradient{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.middle{
+    margin-top: 12.5vw;
+}
+
+.signUpTitle{
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.signUpDescription{
+    font-size: 1.5vw;
+    font-weight: 300;
+}

@@ -1,0 +1,37 @@
+.dating-wrapper{
+    height: 43vw;
+}
+
+.chessboxImg{
+    height: 100%;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.datingText{
+    margin: 5vw 5vw;
+    padding: 3vw 3vw;
+    background-color: #E16C00;
+}
+
+.space{
+    height: 15%;
+}
+
+.datingTitle{
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.datingDescription{
+    font-size: 1.1vw;
+}

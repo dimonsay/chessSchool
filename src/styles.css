@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.purplebgc{
+    background-color: #4A0088;
+}
+
+.orangebgc{
+    background-color: #E16C00;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+}

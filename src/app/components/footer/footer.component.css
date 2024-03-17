@@ -1,0 +1,93 @@
+.contacts-wrapper .title {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.contacts-wrapper {
+    width: 10%;
+    height: 19vw;
+}
+
+.contactsItem {
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.contacts{
+    height: 40%;
+}
+
+.socialItem {
+    height: 2.3vw;
+    width: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 0 3vw;
+}
+
+.form input,
+textarea {
+    border: none;
+    padding: 1vw 1.2vw;
+    color: white;
+    font-weight: 300;
+    font-size: 0.8vw;
+    background-color: #4A0088;
+    width: 18vw;
+}
+
+.submit {
+    background-color: #E16C00;
+    font-size: 1.7vw;
+    font-weight: 700;
+    width: 100%;
+    color: white;
+    padding: 1vw 1.2vw;
+    border: none;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form-wrapper {
+    height: 100%;
+    display: flex;
+    color: white;
+}
+
+.form input::placeholder,
+textarea::placeholder {
+    color: white;
+    font-weight: 300;
+    font-size: 0.8vw;
+}
+
+.form{
+    display: grid;
+    grid-gap: 2vw;
+}
+
+.footer {
+    height: 27vw;
+    padding: 4vw 3vw 1vw;
+}

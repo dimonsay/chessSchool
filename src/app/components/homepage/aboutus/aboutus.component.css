@@ -1,0 +1,58 @@
+#aboutUs{
+    color: white;
+    padding: 4vw;
+    height: 39vw;
+    align-items: center;
+}
+
+.readMore{
+    color: black;
+    padding: 20px 120px;
+    background-color: white;
+    width: fit-content;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.readMore:hover{
+    cursor: pointer;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutSchool{
+    height: 100%;
+    width: 60%;
+}
+
+.aboutUsImg{
+    background-image: url(../../../../assets/chessLesson.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutSchool{
+    height: 100%;
+}
+
+.title{
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.description{
+    font-size: 1.5vw;
+    font-weight: 300;
+}
